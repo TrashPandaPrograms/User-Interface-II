@@ -9,11 +9,68 @@ html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del
 /* CSS Reset */
 
 
-h1{
+header{
+    display: flex;
     font-family: "Castoro";
+    font-size: 500%;
+    background-color: gray;
+}
+
+
+nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+
+.One{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.One button{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+.One p{
+    display: flex;
+    justify-content: center;
 }
 
 
 h2{
+    display: flex;
+    justify-content: flex-end;
     font-family: serif;
+    font-size: 300%;
+}
+
+
+
+.ParkPic{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+}
+
+
+.Two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+.Two div{
+    width: 22%;
+    margin: 4% 0;
 }
