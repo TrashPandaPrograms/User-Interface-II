@@ -1,0 +1,120 @@
+/* Add CSS styling here */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+
+/* CSS Reset */
+html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,label,legend,p,blockquote,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}body{line-height:1;color:black;background:white;}:focus{outline:0;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;font-weight:normal;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}abbr,acronym{border:0;}
+/* CSS Reset */
+
+*{
+    background-color: gray;
+}
+
+header{
+    display: flex;
+    font-family: "Castoro";
+    font-size: 500%;
+    flex-direction: column;
+}
+
+ nav{
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.navbuttons{
+    width: 100%;
+    height: 50%;
+    background-color: beige;
+    transition-duration: 0.5s;
+    
+}
+.navbuttons:hover{
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
+
+.One{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.National{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nationalbutton{
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    cursor: pointer;
+
+}
+
+.Text{
+    width: 80%;
+}
+
+h2{
+    display: flex;
+    justify-content: flex-end;
+    font-family: serif;
+    font-size: 300%;
+}
+
+.ParkPic{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+}
+
+.Two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.Two div{
+    display: flex;
+    width: 22%;
+    margin: 4% 0;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 150%;
+    background-color: beige;
+}
+
+button:hover{
+    transition-duration: 0.5s;
+    background-color: darkgoldenrod;
+}
+
+
+
+
+@media (max-width: 800px){
+
+}
+
+@media (min-width: 500px){
+
+}
